@@ -1,0 +1,7 @@
+; AscHexConv.def : Declares the module parameters for the DLL.
+
+LIBRARY      "AscHexConv"
+DESCRIPTION  'AscHexConv Windows Dynamic Link Library'
+
+EXPORTS
+    ; Explicit exports can go here

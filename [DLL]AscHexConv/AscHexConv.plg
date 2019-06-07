@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: AscHexConv - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\sjkang\LOCALS~1\Temp\RSP3E.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Debug/AscHexConv.pdb" /machine:I386 /def:".\AscHexConv.def" /out:"Debug/AscHexConv.dll" /implib:"../Lib/AscHexConv.lib" /pdbtype:sept 
+".\Debug\AscHexConv.obj"
+".\Debug\AscToHexConv.obj"
+".\Debug\StdAfx.obj"
+".\Debug\AscHexConv.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\sjkang\LOCALS~1\Temp\RSP3E.tmp"
+<h3>Output Window</h3>
+Linking...
+LINK : warning LNK4075: ignoring /EDITANDCONTINUE due to /INCREMENTAL:NO specification
+   Creating library ../Lib/AscHexConv.lib and object ../Lib/AscHexConv.exp
+
+
+
+<h3>Results</h3>
+AscHexConv.dll - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

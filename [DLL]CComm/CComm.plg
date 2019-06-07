@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: CComm - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\SJKANG~1.SJK\LOCALS~1\Temp\RSP1FC.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/CComm.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Project\[DLL]CComm\CComm.cpp"
+"E:\Project\[DLL]CComm\Comm.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SJKANG~1.SJK\LOCALS~1\Temp\RSP1FC.tmp" 
+Creating temporary file "C:\DOCUME~1\SJKANG~1.SJK\LOCALS~1\Temp\RSP1FD.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_WINDLL" /D "_AFXDLL" /FR"Release/" /Fp"Release/CComm.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"E:\Project\[DLL]CComm\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\SJKANG~1.SJK\LOCALS~1\Temp\RSP1FD.tmp" 
+<h3>Output Window</h3>
+Compiling...
+StdAfx.cpp
+Compiling...
+CComm.cpp
+Comm.cpp
+Generating Code...
+Creating temporary file "C:\DOCUME~1\SJKANG~1.SJK\LOCALS~1\Temp\RSP1FE.tmp" with contents
+[
+/nologo /subsystem:windows /dll /incremental:no /pdb:"Release/CComm.pdb" /machine:I386 /def:".\CComm.def" /out:"../DLLs/CComm.dll" /implib:"../Lib/CComm.lib" 
+".\Release\CComm.obj"
+".\Release\Comm.obj"
+".\Release\StdAfx.obj"
+".\Release\CComm.res"
+]
+Creating command line "link.exe @C:\DOCUME~1\SJKANG~1.SJK\LOCALS~1\Temp\RSP1FE.tmp"
+<h3>Output Window</h3>
+Linking...
+   Creating library ../Lib/CComm.lib and object ../Lib/CComm.exp
+Creating command line "bscmake.exe /nologo /o"Release/CComm.bsc"  ".\Release\StdAfx.sbr" ".\Release\CComm.sbr" ".\Release\Comm.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+CComm.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
